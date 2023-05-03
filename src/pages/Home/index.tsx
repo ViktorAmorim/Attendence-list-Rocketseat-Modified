@@ -21,7 +21,6 @@ export function Home() {
 
   function clearError() {
     setShowNameError(false);
-    document.getElementById('demo')?.style.setProperty('border', 'none');
   }
 
   function handleAddStudent() {
